@@ -1,13 +1,9 @@
-# The official xorm repository is no longer available, but xorm is heavily used in the project, so we copied the official repository and compiled it for use.
+# xorm官方仓库不可用了，但是项目中大量使用的xorm，因此复制官方库编译使用。
 
-
-[English](https://github.com/go-xorm/xorm/blob/master/README.md)
+[English](https://github.com/chusyclub/xorm/blob/master/README.md)
 
 xorm是一个简单而强大的Go语言ORM库. 通过它可以使数据库操作非常简便。
 
-[![CircleCI](https://circleci.com/gh/go-xorm/xorm.svg?style=shield)](https://circleci.com/gh/go-xorm/xorm) [![codecov](https://codecov.io/gh/go-xorm/xorm/branch/master/graph/badge.svg)](https://codecov.io/gh/go-xorm/xorm)
-[![](https://goreportcard.com/badge/github.com/go-xorm/xorm)](https://goreportcard.com/report/github.com/go-xorm/xorm)
-[![Join the chat at https://img.shields.io/discord/323460943201959939.svg](https://img.shields.io/discord/323460943201959939.svg)](https://discord.gg/HuR2CF3)
 
 ## 特性
 
@@ -57,7 +53,7 @@ xorm是一个简单而强大的Go语言ORM库. 通过它可以使数据库操作
 
 ## 安装
 
-	go get github.com/go-xorm/xorm
+	go get github.com/chusyclub/xorm
 
 ## 文档
 
@@ -493,7 +489,6 @@ res, err := engine.Transaction(func(session *xorm.Session) (interface{}, error) 
     * `Iterate` 支持 `BufferSize` 
     * 修正部分Bug
 
-[更多更新日志...](https://github.com/go-xorm/manual-zh-CN/tree/master/chapter-16)
 
 ## LICENSE
 

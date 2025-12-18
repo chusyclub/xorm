@@ -1,7 +1,7 @@
 # The official xorm repository is no longer available, but xorm is heavily used in the project, so we copied the official repository and compiled it for use.
  
 
-[中文](https://github.com/go-xorm/xorm/blob/master/README_CN.md)
+[中文](https://github.com/chusyclub/xorm/blob/master/README_CN.md)
 
 Xorm is a simple and powerful ORM for Go.
 
@@ -57,7 +57,7 @@ Drivers for Go's sql package which currently support database/sql includes:
 
 ## Installation
 
-	go get github.com/go-xorm/xorm
+	go get github.com/chusyclub/xorm
 
 ## Documents
 
