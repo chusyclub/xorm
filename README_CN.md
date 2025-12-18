@@ -59,9 +59,9 @@ xorm是一个简单而强大的Go语言ORM库. 通过它可以使数据库操作
 
 * [操作指南](http://xorm.io/docs)
 
-* [GoWalker代码文档](http://gowalker.org/github.com/go-xorm/xorm)
+* [GoWalker代码文档](http://gowalker.org/github.com/chusyclub/xorm)
 
-* [Godoc代码文档](http://godoc.org/github.com/go-xorm/xorm)
+* [Godoc代码文档](http://godoc.org/github.com/chusyclub/xorm)
 
 # 快速开始
 
@@ -411,7 +411,7 @@ res, err := engine.Transaction(func(session *xorm.Session) (interface{}, error) 
 
 ## 贡献
 
-如果您也想为Xorm贡献您的力量，请查看 [CONTRIBUTING](https://github.com/go-xorm/xorm/blob/master/CONTRIBUTING.md)。您也可以加入QQ群  技术帮助和讨论。
+如果您也想为Xorm贡献您的力量，请查看 [CONTRIBUTING](https://github.com/chusyclub/xorm/blob/master/CONTRIBUTING.md)。您也可以加入QQ群  技术帮助和讨论。
 群一：280360085 （已满）
 群二：795010183
 
